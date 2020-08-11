@@ -34,7 +34,7 @@
 	       
 	    .EXAMPLE
 	       
-	       PS C:\> Invoke-ExternalDomainBruteforce -list "C:\Temp\email-password.csv" -domain "test.com"  | ft -AutoSize
+	       PS C:\> Invoke-ExternalDomainBruteforce -userPass "C:\Temp\email-password.csv" -domain "test.com"  | ft -AutoSize
 
 			Email           Domain    Password      
 			-----           ------    ----          
